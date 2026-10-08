@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lavender;
+    margin: 30px;
+    color: #333;
+}
+
+h1 {
+    color: darkmagenta;
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    border-bottom: 1px solid purple;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: purple;
+    text-align: left;
+    font-family: 'Times New Roman', serif;
+}
+
+
+label {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+
+
+input {
+    padding: 8px;
+    width: 230px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+input:focus {
+    border: 2px solid purple;
+    outline: none;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkmagenta;
+}
+
+#listdoctors {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+#listdoctors div {
+    background-color: white;
+    padding: 15px;
+    width: 220px;
+    border: 1px solid plum;
+    border-radius: 8px;
+}
+
+
+#listdoctors h3 {
+    text-align: left;
+    margin-top: 0;
+    color: purple;
+    font-size: 18px;
+}
+
+
+#listdoctors p {
+    color: #555;
+}
+
+
+#listdoctors button {
+    margin-top: 5px;
+}
+
